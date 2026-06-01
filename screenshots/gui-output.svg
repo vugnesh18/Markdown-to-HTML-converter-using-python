@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <style>
+    .bg { fill: #ffffff; }
+    .bar { fill: #2563eb; }
+    .panel { fill: #f6f8fa; stroke: #cbd5e1; stroke-width: 2; }
+    .panel2 { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; }
+    .title { font: 28px Arial, sans-serif; fill: #ffffff; }
+    .label { font: 18px Arial, sans-serif; fill: #111111; }
+    .line { font: 17px Consolas, Monaco, monospace; fill: #1f2937; }
+  </style>
+  <rect width="960" height="540" class="bg" rx="24" />
+  <rect x="20" y="20" width="920" height="80" class="bar" rx="18" />
+  <text x="40" y="58" class="title">Markdown to HTML Converter GUI</text>
+  <rect x="40" y="120" width="420" height="380" class="panel" rx="16" />
+  <rect x="500" y="120" width="420" height="380" class="panel2" rx="16" />
+  <text x="60" y="160" class="label">Markdown Input</text>
+  <text x="520" y="160" class="label">HTML Preview</text>
+  <text x="60" y="200" class="line"># Hello World</text>
+  <text x="60" y="230" class="line">This is a **Markdown** converter.</text>
+  <text x="60" y="260" class="line">- Item one</text>
+  <text x="60" y="290" class="line">- Item two</text>
+  <text x="60" y="320" class="line">[Link](https://example.com)</text>
+  <text x="520" y="200" class="line">&lt;h1&gt;Hello World&lt;/h1&gt;</text>
+  <text x="520" y="230" class="line">&lt;p&gt;This is a &lt;strong&gt;Markdown&lt;/strong&gt; converter.&lt;/p&gt;</text>
+  <text x="520" y="260" class="line">&lt;ul&gt;</text>
+  <text x="540" y="290" class="line">&lt;li&gt;Item one&lt;/li&gt;</text>
+  <text x="540" y="320" class="line">&lt;li&gt;Item two&lt;/li&gt;</text>
+  <text x="520" y="350" class="line">&lt;/ul&gt;</text>
+  <text x="520" y="380" class="line">&lt;p&gt;&lt;a href="https://example.com"&gt;Link&lt;/a&gt;&lt;/p&gt;</text>
+</svg>

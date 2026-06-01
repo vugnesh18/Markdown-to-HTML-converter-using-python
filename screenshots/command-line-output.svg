@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <style>
+    .bg { fill: #f8f8f8; }
+    .frame { fill: #ffffff; stroke: #444444; stroke-width: 2; }
+    .title { font: 28px Arial, sans-serif; fill: #111111; }
+    .text { font: 20px Consolas, Monaco, monospace; fill: #222222; }
+    .hint { font: 18px Arial, sans-serif; fill: #555555; }
+  </style>
+  <rect width="960" height="540" class="bg" rx="24" />
+  <text x="40" y="58" class="title">Markdown to HTML Converter - Output Preview</text>
+  <rect x="40" y="100" width="880" height="340" rx="14" class="frame" />
+  <text x="72" y="150" class="text">Generated HTML Preview:</text>
+  <text x="72" y="190" class="text">&lt;h1&gt;Hello World&lt;/h1&gt;</text>
+  <text x="72" y="230" class="text">&lt;p&gt;This is a &lt;strong&gt;Markdown&lt;/strong&gt; converter.&lt;/p&gt;</text>
+  <text x="72" y="270" class="text">&lt;ul&gt;</text>
+  <text x="92" y="310" class="text">&lt;li&gt;Item one&lt;/li&gt;</text>
+  <text x="92" y="350" class="text">&lt;li&gt;Item two&lt;/li&gt;</text>
+  <text x="72" y="390" class="text">&lt;/ul&gt;</text>
+  <text x="72" y="430" class="text">&lt;p&gt;&lt;a href="https://example.com"&gt;Link&lt;/a&gt;&lt;/p&gt;</text>
+  <text x="72" y="490" class="hint">Save the generated HTML and open it in your browser to preview the result.</text>
+</svg>

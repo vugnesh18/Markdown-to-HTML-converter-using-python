@@ -47,3 +47,13 @@ Then:
 - click **Convert** to generate HTML
 - preview in your browser
 - save the result to an `.html` file
+
+## Output Screenshots
+
+### Command-line output
+
+![Command-line output screenshot](screenshots/command-line-output.svg)
+
+### GUI output
+
+![GUI output screenshot](screenshots/gui-output.svg)
